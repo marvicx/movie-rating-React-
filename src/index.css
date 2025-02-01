@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@theme {
+  --font-roboto: "Roboto", "Arial", sans-serif;
+  --font-poppins: "Poppins", "serif";
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
